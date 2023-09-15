@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  .Main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #174873;
+    padding-bottom: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: smaller;
+    padding-top: 10Spx;
+    }
+  
+.Left-side ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style-type: none;
+    padding-left: 9rem;
+  
+}
+
+  .Right-side ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style-type: none;
+    padding-right: 9rem;
+
+}
+ 
+.Second-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+   
+.left-side1{
+    padding-left: 10rem;
+    
+}
+
+.left-side1 img{
+    width: 100%;
+    height: 12vh;
+}
+
+.Right-side1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    color: #727475;;
+}
+
+.undergraduate{
+    width: 100%;
+    height: 40vh;
+background-image: linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.13)),url(csm-holder-general.jpg);
+    background-size: cover;
+    /* background-image: url(csm-holder-general.jpg) ; */
+    background-position: center;
+    background-color: blue;
+    }
+
+    .graduate-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #fff;
+        padding-top: 14rem;
+        padding-left: 14rem;
+    }
+
+    .icon{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding-left: 9rem;
+        padding-top: 2rem;
+        align-items: center;
+        color: #a3a3a3;
+    }
+
+    .Program{
+        color: #797b7c;
+        padding-left: 9rem;
+        padding-top: 1rem;
+    }
+
+    .categories{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+        padding-top: 6rem;
+        color: #797b7c;
+        }
+
+    .Category-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 2rem;
+        padding-top: 4rem;
+        padding-left: 8rem;
+        font-size: small;
+        color:#797b7c ;
+        }
+
+      img{
+      width:75%;
+      height:30vh;
+    }  
+
+      .icbt{
+      background: #174873;
+      margin-top: 5rem;
+      }
+
+      .icbt img{
+        width: 13%;
+        height: 17vh;
+        
+    }
+
+    .image{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 8rem;
+        padding-right: 10rem;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+        color: #a3a3a3;
+        font-size: small;
+    }
+
+   
+     .middle{
+       display: flex;
+       justify-content: center;
+       font-size: 2.5rem;
+       color:#a3a3a3;
+       padding-top: 1rem;
+       gap: 1rem;
+       }
+       
+       li i{
+        font-size: 17px;
+        }
+
+        .sticker{
+            font-size: 1.1rem;
+            gap: 2rem;
+            padding-right: 40rem;
+        }
+
+       
